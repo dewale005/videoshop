@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/videoshop/static/css/main.89898a84.chunk.css",
-    "main.js": "/videoshop/static/js/main.b3ac0961.chunk.js",
-    "main.js.map": "/videoshop/static/js/main.b3ac0961.chunk.js.map",
+    "main.js": "/videoshop/static/js/main.f5dc08d5.chunk.js",
+    "main.js.map": "/videoshop/static/js/main.f5dc08d5.chunk.js.map",
     "runtime-main.js": "/videoshop/static/js/runtime-main.b481b797.js",
     "runtime-main.js.map": "/videoshop/static/js/runtime-main.b481b797.js.map",
     "static/js/2.151f8d78.chunk.js": "/videoshop/static/js/2.151f8d78.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b481b797.js",
     "static/js/2.151f8d78.chunk.js",
     "static/css/main.89898a84.chunk.css",
-    "static/js/main.b3ac0961.chunk.js"
+    "static/js/main.f5dc08d5.chunk.js"
   ]
 }
