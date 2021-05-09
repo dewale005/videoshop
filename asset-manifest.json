@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/videoshop/static/css/main.89898a84.chunk.css",
+    "main.js": "/videoshop/static/js/main.b3ac0961.chunk.js",
+    "main.js.map": "/videoshop/static/js/main.b3ac0961.chunk.js.map",
+    "runtime-main.js": "/videoshop/static/js/runtime-main.b481b797.js",
+    "runtime-main.js.map": "/videoshop/static/js/runtime-main.b481b797.js.map",
+    "static/js/2.151f8d78.chunk.js": "/videoshop/static/js/2.151f8d78.chunk.js",
+    "static/js/2.151f8d78.chunk.js.map": "/videoshop/static/js/2.151f8d78.chunk.js.map",
+    "static/js/3.f7ec55a5.chunk.js": "/videoshop/static/js/3.f7ec55a5.chunk.js",
+    "static/js/3.f7ec55a5.chunk.js.map": "/videoshop/static/js/3.f7ec55a5.chunk.js.map",
+    "index.html": "/videoshop/index.html",
+    "static/css/main.89898a84.chunk.css.map": "/videoshop/static/css/main.89898a84.chunk.css.map",
+    "static/js/2.151f8d78.chunk.js.LICENSE.txt": "/videoshop/static/js/2.151f8d78.chunk.js.LICENSE.txt",
+    "static/media/logo.3cc1b35a.png": "/videoshop/static/media/logo.3cc1b35a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b481b797.js",
+    "static/js/2.151f8d78.chunk.js",
+    "static/css/main.89898a84.chunk.css",
+    "static/js/main.b3ac0961.chunk.js"
+  ]
+}
