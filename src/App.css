@@ -1,11 +1,295 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.app_logo {
+  width: 130px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app_padding {
+  padding: 0 6%;
 }
+
+.title {
+  font-family: Archivo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.home_image {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .home_image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .top_button {
+    display: none;
+  }
+
+  .lower_button {
+    display: block !important;
+  }
+
+  .cap_align {
+    width: 100%;
+    text-align: start !important;
+  }
+
+  .cap_images_align {
+    justify-content: flex-start !important;
+    height: 120px !important;
+  }
+
+  .cap_images {
+    height: 120px !important;
+  }
+
+  .pagination{
+    margin-left: 20% !important;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 120px;
+    left: -40px;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .open {
+    width: 100%;
+    left: 0;
+  }
+
+}
+
+
+
+.pagination{
+  margin-left: 40% ;
+}
+
+.cart_badge {
+  position: absolute;
+  right: 0px;
+  bottom: -5px;
+  margin: 0;
+  left: 29px;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  font-size: 9px;
+  width: 14px;
+}
+
+.cap_images {
+  object-fit: cover;
+  width: 25%;
+  height: 260px;
+  display: inline-flex;
+}
+
+.cap_images_align {
+  width: 100%;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.home_caption {
+  position: absolute;
+  padding: 20px 8%;
+  background-color: #fff;
+  bottom: 0;
+  margin: 0;
+  font-family: Archivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.cap_align {
+  width: 100%;
+  text-align: end;
+}
+
+.cap_title {
+  font-family: Archivo;
+  font-size: 22px;
+  font-style: normal;
+  margin-bottom: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+.cap_grey {
+  font-family: Archivo;
+  font-size: 22px;
+  margin-bottom: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #656565;
+}
+
+.cap_paragraph {
+  font-family: Archivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: #656565;
+}
+
+.home_bg {
+  position: relative;
+}
+
+.lower_button {
+  display: none;
+}
+
+.button {
+  padding: 10px 60px 10px 60px;
+  border-radius: 0;
+}
+
+.top {
+  margin-top: 50px;
+}
+
+.top_mini {
+  margin-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  padding-top: 20px;
+}
+
+.cart {
+  position: absolute;
+  background: whitesmoke;
+  border: 4px solid #c8c9ca;
+  z-index: 1;
+  top: 64px;
+  right: 0px;
+  width: 1160%;
+  max-height: 350px;
+  box-shadow: -2px -1px 20px 0px #00000040;
+  display: inherit;
+  transition: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.item_category {
+  font-family: Archivo;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #656565;
+}
+
+.item_title {
+  font-family: Archivo;
+  font-size: 34px;
+  font-style: normal;
+  margin-bottom: 6px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.item_price {
+  font-family: Archivo;
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #656565;
+}
+
+.item_bestseller {
+  position: absolute;
+    background: #fff;
+    padding: 4px 31px;
+}
+
+.item_button {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
+  transition: auto;
+}
+
+.filter_item {
+  font-family: Archivo;
+  font-size: 17px;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.form-check-input {
+  border: 2px solid;
+  border-radius: 0 !important;
+}
+
+.item:hover .item_button {
+  z-index: 1;
+}
+
+.disabled {
+  display: none;
+}
+
+
+
+.pagination li{
+  padding-left: 5px;
+  padding-right: 5px;
+  color: gray;
+  font-weight: 400;
+}
+
+.pagination li.active {
+color: #000;
+font-weight: bolder;
+font-size: 30;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,8 +297,10 @@
   }
 }
 
+
+
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
